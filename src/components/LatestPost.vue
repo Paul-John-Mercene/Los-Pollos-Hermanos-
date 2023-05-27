@@ -28,7 +28,7 @@
         text>More</v-btn>
 
       <v-btn
-        color="orange"
+        color="green"
         text
       >
         Explore
