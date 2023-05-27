@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-app-bar color="white" app flat>
+    <v-app-bar color="green" app flat>
       <Header/>
     </v-app-bar>
 
