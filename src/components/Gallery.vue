@@ -81,3 +81,9 @@ export default {
 }
 </script>
 
+<style>
+.galleryBlock {
+  background-color: green;
+}
+</style>
+
