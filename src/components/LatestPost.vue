@@ -51,22 +51,22 @@
           {
             id: 1,
             title: "Los Pollos Hermanos",
-            subtitle: "jahsdukahsfjgsjfh",
-            description: "bhjaghjfhfhahdsjankjhs",
+            subtitle: "About Us",
+            description: "This will tell about our group.",
             src: require("../assets/logo.png")
           },
           {
           id: 2,
-            title: "Los Pollos",
-            subtitle: "jahsdukahsfjfh",
-            description: "bhjaghjfdsjankjhs",
+            title: "Photography",
+            subtitle: "Sample Pictures",
+            description: "Shows our sample photos.",
             src: require("../assets/logo.png")
           },
           {
           id: 3,
-            title: "Los  Hermanos",
-            subtitle: "jahsdukahssjfh",
-            description: "bhjfhfhahdsjankjhs",
+            title: "Members",
+            subtitle: "Participants",
+            description: "Show the members who made the program.",
             src: require("../assets/logo.png")
           },
         ]
