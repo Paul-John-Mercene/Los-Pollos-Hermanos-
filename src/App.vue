@@ -31,4 +31,9 @@ export default {
   }),
 };
 </script>
+<style>
+.custom-background {
+  background-color: #C7E9B0; 
+}
+</style>
 
