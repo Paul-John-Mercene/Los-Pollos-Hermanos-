@@ -26,15 +26,15 @@ export default {
         },
         {
           src: 'https://cdn.vuetifyjs.com/images/carousel/sky.jpg',
-          title: 'Tanggal',
+          title: 'Alagos, Colarat',
         },
         {
           src: 'https://cdn.vuetifyjs.com/images/carousel/bird.jpg',
-          title: 'na si',
+          title: 'Masubay, Mercene',
         },
         {
           src: 'https://cdn.vuetifyjs.com/images/carousel/planet.jpg',
-          title: 'Lance',
+          title: 'Francisco, Sia',
         },
       ],
     };
