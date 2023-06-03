@@ -9,6 +9,13 @@
       <Gallery/>
       <LatestPost/>
     </v-content>
+    
+    <router-view></router-view>
+
+    <v-footer>
+      <Footer/>
+    </v-footer>
+    
   </v-app>
 </template>
 
