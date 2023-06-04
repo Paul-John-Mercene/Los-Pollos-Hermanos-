@@ -1,4 +1,4 @@
-# photography
+# Los Pollos Hermanos
 
 ## Project setup
 ```
