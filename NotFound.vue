@@ -1,43 +1,23 @@
 <template>
-  <v-carousel>
-    <v-carousel-item
-      v-for="(item, i) in items"
-      :key="i"
-      :src="item.src"
-      reverse-transition="fade-transition"
-      transition="fade-transition"
-    >
-      <v-row class="fill-height" align="center" justify="center">
-        <div style="font-size: 100px; color: white;">{{ item.title }}</div>
-      </v-row>
-    </v-carousel-item>
-  </v-carousel>
+  <v-content>
+    <v-container>
+      <div class="block text-center notFound">
+        <h2>Page not found</h2>
+        <i class="fas fa-exclamation-triangle red--text"></i>
+        <p>We're sorry, the page you requested could not be found. Please go back to the homepage or contact us at lospolloshermanos@gmail.com</p>
+      </div>
+    </v-container>
+  </v-content>
 </template>
 
 <script>
 export default {
-  name: 'MyHero',
+  name: "NotFound",
+
   data() {
     return {
-      items: [
-        {
-          src: 'https://cdn.vuetifyjs.com/images/carousel/squirrel.jpg',
-          title: 'Los Pollos Hermanos',
-        },
-        {
-          src: 'https://cdn.vuetifyjs.com/images/carousel/sky.jpg',
-          title: 'Tanggal',
-        },
-        {
-          src: 'https://cdn.vuetifyjs.com/images/carousel/bird.jpg',
-          title: 'na si',
-        },
-        {
-          src: 'https://cdn.vuetifyjs.com/images/carousel/planet.jpg',
-          title: 'Lance',
-        },
-      ],
+      items: []
     };
-  },
+  }
 };
 </script>
