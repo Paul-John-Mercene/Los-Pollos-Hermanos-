@@ -1,33 +1,39 @@
 <template>
   <v-container>
-    <v-toolbar flat>
-        <v-toolbar-title> Los Pollos Photography</v-toolbar-title>
-
-        <v-spacer></v-spacer>
-
-        <v-toolbar-items>
-        <v-btn text>
-          <router-link to="/">Home</router-link>
-        </v-btn>
-        
-        <v-btn text>
-          <router-link to="/about">About</router-link>
-        </v-btn>
-        
-        <v-btn text>
-          <router-link to="/contact">Contact</router-link>
-        </v-btn>
+    <v-toolbar color="#379683" flat class="mainHeader">
+      <v-toolbar-title>Los Pollos Photography</v-toolbar-title>
+      <v-spacer></v-spacer>
+      <v-toolbar-items class="hidden-xs-only">
+        <v-btn text><router-link to="/">Home</router-link></v-btn>
+        <v-btn text><router-link to="/about">About</router-link></v-btn>
+        <v-btn text><router-link to="/contact">Contact</router-link></v-btn>
       </v-toolbar-items>
-      </v-toolbar>
+      <div class="hidden-sm-and-up">
+        <v-menu offset-y>
+          <template v-slot:activator="{ on }">
+            <v-app-bar-nav-icon v-on="on"></v-app-bar-nav-icon>
+          </template>
+          <v-list class="responsiveMenu">
+            <v-list-item>
+              <v-list-item-title><router-link to="/">Home</router-link></v-list-item-title>
+            </v-list-item>
+            <v-list-item>
+              <v-list-item-title><router-link to="/about">About</router-link></v-list-item-title>
+            </v-list-item>
+            <v-list-item>
+              <v-list-item-title><router-link to="/contact">Contact</router-link></v-list-item-title>
+            </v-list-item>
+          </v-list>
+        </v-menu>
+      </div>
+    </v-toolbar>
   </v-container>
 </template>
 
 <script>
-  export default {
-    name: 'HelloWorld',
-
-    data: () => ({
-      
-    }),
-  }
+export default {
+  name: "Header",
+  data: () => ({
+  })
+};
 </script>
