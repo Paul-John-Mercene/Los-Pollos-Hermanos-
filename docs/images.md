@@ -49,7 +49,7 @@ export default {
 
 <box>
 
-## more
+## Other Information
 
 You can make changes in some details like removing the border-radius with the property `not-border-radius` or adding a different style of layout with the property `alternating`, you can also remove the margin between the images with the property `not- margin`.
 
