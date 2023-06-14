@@ -3,7 +3,7 @@
 <box header>
     A progress component in Vue is a user interface element that visually represents the progress or completion of a task, process, or operation. It is commonly used to provide feedback to users about the status of an ongoing action, such as file uploads, form submissions, or loading processes.
     
-    The progress component typically consists of a horizontal bar or a circular indicator that fills up or advances based on the completion percentage. 
+The progress component typically consists of a horizontal bar or a circular indicator that fills up or advances based on the completion percentage. 
 
 </box>
 
@@ -70,10 +70,6 @@ You can have a progress bar with indeterminate value with the property `indeterm
 
 You can change the height of the loading bar with the property `height`.
 
-:::tip
-By default the property `height` is **5** (`5px`)
-:::
-
 <vuecode md>
 <div slot="demo">
   <v-progress :height="2" :percent="100" color="primary">primary</v-progress>
@@ -83,14 +79,14 @@ By default the property `height` is **5** (`5px`)
 </div>
 <div slot="code">
 
-```html
-<v-progress :height="2" :percent="100" color="primary">primary</v-progress>
-<v-progress :height="4" :percent="80" color="warning">warning</v-progress>
-<v-progress :height="8" :percent="60" color="danger">danger</v-progress>
-<v-progress :height="12" :percent="40" color="success">success</v-progress>
-```
+    ```html
+    <v-progress :height="2" :percent="100" color="primary">primary</v-progress>
+    <v-progress :height="4" :percent="80" color="warning">warning</v-progress>
+    <v-progress :height="8" :percent="60" color="danger">danger</v-progress>
+    <v-progress :height="12" :percent="40" color="success">success</v-progress>
+    ```
 
-</div>
-</vuecode>
+    </div>
+    </vuecode>
 
-</box>
+    </box>
