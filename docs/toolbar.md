@@ -1,10 +1,9 @@
 # Toolbar
 
 <box header>
-
-    A toolbar component in Vue is a reusable user interface element that provides a collection of buttons, icons, and other interactive elements for quick access to frequently used actions or functionality within an application. It is commonly used to create a navigation or action bar at the top or bottom of a page or screen.
+A toolbar component in Vue is a reusable user interface element that provides a collection of buttons, icons, and other interactive elements for quick access to frequently used actions or functionality within an application. It is commonly used to create a navigation or action bar at the top or bottom of a page or screen.
     
-    The toolbar component typically consists of a horizontal or vertical container that holds various interactive elements, such as buttons, icons, dropdowns, or input fields
+The toolbar component typically consists of a horizontal or vertical container that holds various interactive elements, such as buttons, icons, dropdowns, or input fields
 </box>
 
 <box>
