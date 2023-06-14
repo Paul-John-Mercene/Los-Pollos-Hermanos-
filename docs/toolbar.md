@@ -13,12 +13,12 @@
 
 We have the `v-toolbar` component. The toolbar component works great in conjunction with `v-navigation-drawer`and `v-card`. 
 
-<vuecode md>
-<div slot="demo">
-<v-toolbar title="Application"></v-toolbar>
-</div>
-</vuecode>
-</box>
+    <vuecode md>
+    <div slot="demo">
+    <v-toolbar title="Application"></v-toolbar>
+    </div>
+    </vuecode>
+    </box>
 
 ## Props
     A wide array of props can be employed to modify the v-toolbar component’s look and functionality.
