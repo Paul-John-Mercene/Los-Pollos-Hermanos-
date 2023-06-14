@@ -1,46 +1,35 @@
 <template>
   <v-app>
-    <v-app-bar color="green" app flat>
-      <Header/>
+    <v-app-bar
+      color="#379683"
+      app
+      flat
+    >
+    <Header/>
     </v-app-bar>
-
-    <v-content class="custom-background">
-      <Hero/>
-      <Gallery/>
-      <LatestPost/>
-    </v-content>
     
     <router-view></router-view>
 
     <v-footer>
       <Footer/>
     </v-footer>
-    
   </v-app>
 </template>
 
 <script>
 import Header from './components/Header';
-import Hero from './components/Hero';
-import Gallery from './components/Gallery';
-import LatestPost from './components/LatestPost';
+import Footer from './components/Footer';
 
 export default {
   name: 'App',
+
   components: {
     Header,
-    Hero,
-    Gallery,
-    LatestPost
+    Footer
   },
+
   data: () => ({
     //
   }),
 };
 </script>
-<style>
-.custom-background {
-  background-color: #C7E9B0; 
-}
-</style>
-
