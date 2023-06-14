@@ -33,7 +33,7 @@ We have the `v-toolbar` component. The toolbar component works great in conjunct
     Dense toolbars reduce their height to 48px. When using in conjunction with the prominent prop, will reduce height to 96px.
 
 ### Extended
-Toolbars can be extended without using the extension slot.
+    Toolbars can be extended without using the extension slot.
 
 ### Floating with search
     A floating toolbar is turned into an inline element that only takes up as much space as needed. This is particularly useful when placing toolbars over content.
