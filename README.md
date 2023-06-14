@@ -13,6 +13,7 @@ This project is done by the Los Pollos Group as a requirement class CS202, servi
 3. Using the terminal, type npm build.
 4. Using the terminal, type npm run serve.
 5. Copy at your local browser: http://localhost:8080/ 
+
 ![image](https://github.com/Paul-John-Mercene/Los-Pollos-Hermanos-/assets/127032860/632a0812-b637-4e3b-8a3f-17362128e2a4)
 
 ### Project setup
