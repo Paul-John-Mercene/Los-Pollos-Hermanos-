@@ -29,14 +29,14 @@
 </v-carousel>
 </div>
 </vuecode>
-</box>
+
 
 ## Props
     A wide array of props can be employed to modify the v-carousel component’s look and functionality.
 
 ### Custom delimiters
     Use any available icon as your carousel’s slide delimiter.
-<box>   
+ 
 <template>
   <v-card
     elevation="24"
@@ -92,6 +92,7 @@
     },
   }
 </script>
+    
 </box>
 
 ### Cycle
@@ -145,7 +146,7 @@
   }
 </script>
 
-</box>
+
 
 ### Hide controls
     You can hide the carousel navigation controls with :show-arrows="false". Or you can make them only appear on hover with show-arrows="hover".
@@ -184,7 +185,7 @@
   }
 </script>
 
-</box>
+
 
 ### Customized arrows
     Arrows can be customized by using prev and next slots.
@@ -250,7 +251,7 @@
   }
 </script>
 
-</box>
+
 
 ### Hide delimiters
 You can hide the bottom controls with hide-delimiters prop.
@@ -289,7 +290,7 @@ You can hide the bottom controls with hide-delimiters prop.
   }
 </script>
 
-</box>
+
 
 ### Progress
     You can show a linear progress bar with the progress prop. It will indicate how far into the cycle the carousel currently is.
@@ -334,7 +335,7 @@ You can hide the bottom controls with hide-delimiters prop.
   }
 </script>
 
-</box>
+
 
 ### Model
     You can control carousel with v-model.
