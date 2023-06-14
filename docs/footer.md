@@ -7,4 +7,5 @@
 <box>
 
 ## Default
+    
     We have the `v-footer` component. It is used for displaying general information that a user might want to access from any page within your site.
