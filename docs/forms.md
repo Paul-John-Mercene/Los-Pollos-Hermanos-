@@ -55,41 +55,41 @@ We have the `v-form` component. Whenever the value of an input is changed, each 
   </v-form>
 </template>
 
-<script>
-  export default {
-    data: () => ({
-      valid: false,
-      firstname: '',
-      lastname: '',
-      nameRules: [
-        value => {
-          if (value) return true
+    <script>
+      export default {
+        data: () => ({
+          valid: false,
+          firstname: '',
+          lastname: '',
+          nameRules: [
+            value => {
+              if (value) return true
 
-          return 'Name is requred.'
-        },
-        value => {
-          if (value?.length <= 10) return true
+              return 'Name is requred.'
+            },
+            value => {
+              if (value?.length <= 10) return true
 
-          return 'Name must be less than 10 characters.'
-        },
-      ],
-      email: '',
-      emailRules: [
-        value => {
-          if (value) return true
+              return 'Name must be less than 10 characters.'
+            },
+          ],
+          email: '',
+          emailRules: [
+            value => {
+              if (value) return true
 
-          return 'E-mail is requred.'
-        },
-        value => {
-          if (/.+@.+\..+/.test(value)) return true
+              return 'E-mail is requred.'
+            },
+            value => {
+              if (/.+@.+\..+/.test(value)) return true
 
-          return 'E-mail must be valid.'
-        },
-      ],
-    }),
-  }
-</script>
+              return 'E-mail must be valid.'
+            },
+          ],
+        }),
+      }
+    </script>
 
-</div>
-</vuecode>
-</box>
+    </div>
+    </vuecode>
+    </box>
